@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    30%{
+        background-position: 400%;
+    }
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image: image-set("https://i.pinimg.com/236x/ec/72/25/ec7225c7df89b3b7d2d9f40ee9809d55.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Login Container */
+.box-area{
+    width: 930px;
+}
+/* Right Box */
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+/* Custom Placeholder */
+::placeholder{
+    font-size: 16px;
+
+}

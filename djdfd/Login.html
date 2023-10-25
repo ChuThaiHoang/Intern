@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleLogin.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100 p2">
+        <!-- Login Container -->
+        <div class="row border rounded-5 p-3 shadow box-area">
+            <!-- Left Box -->
+            <div
+                class="left-box col-md-6 col-sm-4 border rounded-4 d-flex justify-content-center align-items-center flex-column text-center">
+                <div class="featured-image">
+                    <img src="https://i.pinimg.com/236x/be/d0/5b/bed05b495d80cb5e460345477f2bf468.jpg" alt=""
+                        class="img-fluid border rounded-circle" style="width: 100%;">
+                </div>
+                <p class="text-white fs-2 mt-5" style="font-family: 'Courier New', Courier, monospace;">Sign Up</p>
+                <small class="text-wrap" style="width: 17rem; font-family: 'Courier New', Courier, monospace;">Be
+                    verified</small>
+            </div>
+            <!-- Right Box -->
+            <div class="right-box col-md-6 col-sm-8 d-flex justify-content-center">
+                <div class="row align-items-center">
+                    <div class="header-text mb-0 text-white">
+                        <h2>Login your account:</h2>
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control form-control-lg bg-light fs-6"
+                                placeholder=" Username" id="user">
+                            <label for="user" class="fas fa-user mx-auto"> user</label>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="password" class="form-control form-control-lg bg-light fs-6"
+                                placeholder="Password" id="pass">
+                            <label for="pass" class="fas fa-lock mx-auto"> password</label>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 d-flex justify-content-between text-white">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="formCheck">
+                            <label for="formCheck" class="form-check-label"><small>Remeber
+                                    Me</small></label>
+                        </div>
+                        <div class="forgot">
+                            <small>Forgot password? <a href="#">Click here!</a></small>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 d-flex">
+                        <button type="button" class="btn btn-dark btn-lg btn-block w-100 fs-6 border border-1"
+                            style="
+                        background: linear-gradient(90deg, rgb(0, 0, 0), rgb(19, 127, 200), blue);
+                        background-size: 100%;
+                        /* animation: animate 100s linear infinite; */
+                        ">Login</button>
+                    </div>
+                    <div class="row text-white">
+                        <small class="d-flex justify-content-center"> Have an account? <a href="#"
+                                class="ms-1">Sign In</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Custom Placeholder -->
+    <!-- For small screen -->
+</body>
+
+</html>

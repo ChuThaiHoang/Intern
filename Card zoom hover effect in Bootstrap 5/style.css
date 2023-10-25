@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    max-width: 40rem;
+    min-height: 26rem;
+    width: 100%;
+    margin: 0 2rem;
+    background: #fff;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+    position: absolute;
+}
+
+.box .content {
+    position: absolute;
+    transform: translate(-50%, -50);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    margin: auto;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.box .content h2 {
+    padding-top: 15px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.box .content p {
+    display: -webkit-box;
+    max-height: 100px;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.box:hover img {
+    position: absolute;
+    top: -2%;
+    width: 50%;
+    border: 0.2rem solid #ab6b6b;
+    border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

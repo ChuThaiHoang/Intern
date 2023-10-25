@@ -1,0 +1,46 @@
+.container-fluid .header
+{
+    padding: 5px;
+}
+
+.container-fluid .header .header_start p
+{
+    margin: 0 30px 0 0;
+    color: white;
+    font-size: 14px; 
+    font-family: Lato; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid .header image
+{
+    padding: 1px 1px 6px 4px;
+}
+.container-fluid .header .header_end
+{
+    background-color: rgba(56, 57, 59, 1);
+}
+.container-fluid .header .header_end a .tip
+{
+    left: 30px; 
+    top: 0;
+    color: white; 
+    font-size: 10px; 
+    font-family: Lato; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+.menu_navbar .menu_item {
+    margin-top: 5px;
+    margin-right: 69px;
+}
+.menu_navbar .menu_item a{
+    text-decoration: none;
+    color: white;
+    margin-right: auto;
+}

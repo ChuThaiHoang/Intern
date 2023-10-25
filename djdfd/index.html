@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border border-3 border-secondary-subtle">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="width: 50px; height:50px"><img class="img-fluid rounded-circle"
+                        src="https://i.pinimg.com/564x/1d/74/3b/1d743bb41490128be1b2a0edc8a3e000.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon-link-hover"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link d-flex justify-content-center" href="#">Galery</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" href="#">Artists</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success mx-auto" type="submit"><img class="img-fluid"
+                                style="width: 25px;height: 25px; image-resolution: inherit;"
+                                src="https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg"
+                                alt=""></button>
+                        <button class="btn btn-outline-success mx-auto" type="submit"><img class="img-fluid"
+                                style="width: 25px;height: 25px; image-resolution: inherit;"
+                                src="https://i.pinimg.com/236x/9e/b3/1f/9eb31f1397aa013972c607f8d38923fd.jpg"
+                                alt=""><span class="badge bg-primary rounded-pill ms-1">0</span>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid p-5" style="margin-top: 65px;">
+        <div class="banner my-auto">
+            <div class="row d-flex justify-content-center">
+                <div class="box-left col-lg-4 col-md-4 col-sm-6 col-5">
+                    <center>
+                        <p class="align-content-lg-center">Prop <br><span class="h4 text-info fw-bold">IMAGES</span></p>
+                    </center>
+                    <p class="text-md-center text-sm-center text-center">Ảnh của bạn đẹp đấy, giờ nó là của tôi
+                        rồi. <br> Thân ái! </p>
+                    <center><a href="#artist" class="btn btn-info align-content-sm-center">Explore</a></center>
+                </div>
+                <div class="box-right d-flex justify-content-center col-lg-6">
+                    <div class="row-cols-auto mx-auto">
+                        <img class="img-fluid mx-auto mt-3"
+                            src="https://i.pinimg.com/236x/20/5d/e3/205de35a870ee61aef4e8a13a27f8855.jpg" alt="">
+                    </div>
+                    <div class="row-cols-auto mx-auto">
+                        <img class="img-fluid mx-auto mt-5"
+                            src="https://i.pinimg.com/236x/e1/75/07/e175074db8d86e4524fc71542422f756.jpg" alt="">
+                    </div>
+                    <div class="row-cols-auto mx-auto">
+                        <img class="img-fluid mx-auto mt-4"
+                            src="https://i.pinimg.com/236x/9a/69/87/9a698731d68de1ff0c7d3a3e2731168b.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="artist">
+        <p class="bg-secondary w-auto h-25 border border-black my-auto mb-4"></p>
+        <div class="container-fluid">
+            <h2 class="mt-2">
+                <center id="artist">Artists</center>
+            </h2>
+            <div class="list-galery mt-5">
+                <div class="row w-100 d-flex mx-auto col-6">
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/236x/33/b2/bc/33b2bc4043dbf97978143fe418e086b7.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/236x/09/16/1e/09161ec48752caea4e9a3adcbd4df29f.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/236x/74/35/7d/74357d41f670fb61268507deb53836ab.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center d-block">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid "
+                            src="https://i.pinimg.com/236x/11/9a/3d/119a3d924e202447fd1a73a86db2a622.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid "
+                            src="https://i.pinimg.com/236x/19/df/aa/19dfaab90291bb68b86ca17638bd5484.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid "
+                            src="https://i.pinimg.com/236x/dd/93/8d/dd938d39dce2a1f6d7438a09ec05a8b6.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/236x/ce/ce/ba/ceceba5a638604101485ac3aebefc58a.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/236x/80/a4/b9/80a4b9a7a3ab52432ef5ced704086a3b.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/236x/fc/49/ae/fc49ae167e9b1cbba775a754c2e835ae.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                    <div class="card mx-auto my-2 d-block" style="width:250px; height: 460px;">
+                        <img class="card-img-top img-fluid"
+                            src="https://i.pinimg.com/474x/d6/b8/65/d6b865ee77f610d6f51bc479a094b342.jpg"
+                            alt="Card image" style="width:250px; height: 250px;">
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title fw-bold">John Doe</h4>
+                            </center>
+                            <p class="card-text text-center">Some example text some example text. John Doe is an
+                                architect and
+                                engineer</p>
+                            <center><a href="#" class="btn btn-primary d-block">Galery</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="galery mt-2 bg-light-subtle">
+        <p class="bg-secondary w-auto h-25 border border-black mt-5"></p>
+        <div class="container-fluid">
+            <div class="row">
+                <h3 class="text-center fw-bold mb-3 text-uppercase"><span class="text-success">Art </span><span
+                        class="text-danger"> Gallery</span></h3>
+                <div class="container-fluid col-4">
+                    <div class="row mb-3 bg">
+                        <i class="fas fa-heart"></i>
+                        <img src="https://i.pinimg.com/236x/64/2f/91/642f91a3a0651618adbbdd077526320f.jpg" alt="">
+                    </div>
+                    <div class="row mb-3 ">
+                        <img src="https://i.pinimg.com/236x/84/04/81/840481fe29dc17ca71b72338589992b0.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/eb/6c/3e/eb6c3e8764e3ca2d2bb36af6e231f648.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/6a/c1/86/6ac1860fa4a17635eab64be7594d200d.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/564x/ff/b7/70/ffb770fd5920b58e3a763449118ab8cf.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/43/af/60/43af60acae2f01c9b0575600af8068d7.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/54/6c/ef/546cef40034cc5d71527aad332577117.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/89/26/01/8926014bf2dbf158a5a10b98d8f39840.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/7c/b3/68/7cb368c4303e2577bb34795e3aaa7830.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/e3/2c/71/e32c717d0e8942ce0b98a26ec281e4c1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/f6/02/bf/f602bf07470840f4c399b24de1a383fe.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/65/db/c2/65dbc29265ecfb04de8cca6a6e13b9e9.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/8a/1c/50/8a1c50b84dbfaeacfb5be2a545816948.jpg" alt="">
+                    </div>
+                    <div class="row mb-3">
+                        <img src="https://i.pinimg.com/236x/0d/bf/fa/0dbffa31b464c6cae0f1cc51c10fd83b.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JavaScript -->
+    <script src="script.css"></script>
+</body>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-linkedin-in"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+            <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline form-white mb-4">
+                            <input type="email" id="form5Example21" class="form-control" />
+                            <label class="form-label" for="form5Example21">Email address</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-light mb-4">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                eum harum corrupti dicta, aliquam sequi voluptate quas.
+            </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white text-decoration-none" href="#">Mể</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+</html>

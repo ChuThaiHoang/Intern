@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Ecomerce</title>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0">
+        <div class="header w-100 h-100 bg-dark d-flex justify-content-between">
+            <!-- Header start -->
+            <div class="header_start d-flex" style="margin-left: 150px;">
+                <img class="img-fluid" src="./image/mail.svg " id="mail">
+                <p>cskh@hangtot247.com</p>
+                <img class="img-fluid" src="./image/phone.svg " id="phone">
+                <p>cskh@hangtot247.com</p>
+            </div>
+            <div class="header_end text-white mb-0 d-flex justify-content-center align-items-center p-1"
+                style="height: 39px; margin-right: 150px;">
+                <div class="item d-flex justify-content-center p-3 position-relative mx-1 mt-2">
+                    <a href="">
+                        <img class="whish-list img-fluid" src="./image/heart.svg"
+                            style="left: 30px;top: 5px; position: absolute;">
+                        <img class="img-fluid" src="./image/Ellipse 2.svg"
+                            style="left: 25px; top: 0; position: absolute;">
+                        <span class="tip position-absolute text-center">0</span>
+                    </a>
+                </div>
+                <div class="item d-flex justify-content-center p-3 position-relative  mt-1">
+                    <a href="">
+                        <img class="cart img-fluid" src="./image/cart.svg"
+                            style="left: 30px; top: 5px; position: absolute;">
+                        <img class="img-fluid" src="./image/Ellipse 2.svg"
+                            style="left: 25px; top: 0; position: absolute;">
+                        <span class="tip position-absolute text-center">0</span>
+                    </a>
+                </div>
+                <p class="px-4 mb-1">49.000.000 đ</p>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container-fluid d-flex justify-content-center align-items-center"
+                style="width: 100%; height: 75px;">
+                <div class="" style="margin-bottom: 70px;">
+                    <img class="me-5" src="./image/logo hangtotHHHH-01 1.png" alt="">
+                </div>
+                <div class="m-3 mb-5 align-items-center position-relative align-content-center w-auto"
+                    style=" height: 100%;">
+                    <div class="d-flex align-items-center"
+                        style="width: 100%; height: 47px; background: white; border-radius: 5px; border: 1px #EBEBEB solid">
+                        <button
+                            class="border border-0  bg-white h-100 d-flex justify-content-around align-items-center ms-3"
+                            style="width: 250px;">
+                            <p class="mb-0 w-100 d-flex justify-content-start"
+                                style="color: black; font-size: 14px; font-family: Lato; font-weight: 400;">
+                                Loại sản phẩm
+                            </p>
+                            <img class="mt-2" src="./image/Polygon 1.svg"
+                                style="width: 7.79px; height: 3.75px; transform: rotate(-180deg); transform-origin: 0 0;">
+                        </button>
+                        <span class="" style="width: 0px; height: 23.50px; border: 1px #9D9D9D solid"></span>
+                        <input class="border border-0"
+                            style="width: 100%; margin-left: 10px; color: #A1A1A1; font-size: 14px; font-family: Lato; font-weight: 400; line-height: 24px; word-wrap: break-word;"
+                            placeholder="Tìm kiếm sản phẩm...">
+                        <button class=""
+                            style="width: 100px; height: 43px; left: 600px; top: 2px; background: #EAFFEA; border-radius: 3px">
+                            <img class="img-fluid mb-1" src="./image/search.svg" style="color: #1AA64A;">
+                        </button>
+                    </div>
+                </div>
+                <div class="form align-content-center d-flex mb-5 mx-5 w-auto" style="height: 100%;">
+                    <img class="bg-white mt-3" src="./image/User.svg"
+                        style="width: 29px; height: 29px; left: 0px; top: 2px;">
+                    <div class="w-100 mx-1">
+                        <div class="" style="margin-top: 3px;">
+                            <a class="text-decoration-none"
+                                style="color: #6B6B6B; font-size: 12px; font-family: Lato; font-weight: 400; word-wrap: break-word">
+                                Đăng ký / Đăng nhập
+                            </a>
+                            <div class="dropdown">
+                                <a class="btn btn-buy p-0 dropdown-toggle mb-2"
+                                    style="color: #6B6B6B; font-size: 14px; font-family: Lato; font-weight: 700; word-wrap: break-word"
+                                    href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Tài khoản
+                                </a>
+                                <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu_navbar w-100" style="height: 100%;">
+            <div class="container-fluid p-0" style="width: 100%; height: 44px; background: #EE4D2D">
+                <div class="w-100 h-100"style="border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: 160px;">
+                    <div class="nav d-flex justify-content-start my-auto">
+                        <div class="btn-group me-4">
+                            <button class="btn dropdown-toggle" style="width: 237px;; background: #FFD839;" type="button"
+                                id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Danh mục sản phẩm
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end w-100" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                                <h6 class="dropdown-header">Section header</h6>
+                                <a class="dropdown-item" href="#">Action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">After divider action</a>
+                            </div>
+                        </div>
+                        <div class="menu_item">
+                            <a href="">Trang chủ</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="">Sản phẩm</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="">Khuyến mãi</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="">Tin tức</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="">Nhượng quyền</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="">Liên hệ</a>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <div class="banner bg-body-secondary d-flex mt-1">
+            <div class="me-1" style="margin-left: 145px;">
+                <img class="img-fluid" src="./image/banner1.png" alt="" />
+            </div>
+            <div class="d-flex flex-column" style="margin-left: 2px;">
+                <img class="img-fluid" src="./image/banner2.png" style="margin-bottom: 4px;" alt="">
+                <img class="img-fluid" src="./image/banner3.png" alt="">
+            </div>
+        </div>
+        <div class="mt-1 bg-danger w-100 h-auto">
+            <div>
+                Danh muc san pham
+                <div class="w-100 h-100">
+                    <a href="">
+                        <div class="card d-flex justify-content-center" style="width: 98px; height: 96px;">
+                            <img src="./image/45X45.png" class=" img-fluid" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-capitalize" style="text-align: center; color: black; font-size: 14px; font-family: Lato; font-weight: 400; word-wrap: break-word;">Card title</h5>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="Script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
