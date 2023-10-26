@@ -50,7 +50,34 @@ html::-webkit-scrollbar-thumb {
 body {
     background: var(--bg);
 }
-
+section{
+    padding: 2rem 7%;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+    color: var(--main-color);
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .7rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.btn:hover{
+    transition: all .5s ease;
+    color: #fff;
+    background: var(--main-color);
+    letter-spacing: .1rem;
+}
 header {
     background: var(--bg);
     padding: 1.5rem 7%;
@@ -92,14 +119,16 @@ header .icons a:hover {
 
 header .search-form {
     top: 115%;
-    right: 17%;
+    right: 7%;
     background: #fff;
     width: 50rem;
-    height: 3rem;
+    height: 5rem;
     transform: scaleY(0);
     transform-origin: top;
 }
-
+.search-form.active{
+    transform: scaleY(1);
+}
 header .search-form input {
     font-size: 1.6rem;
     color: var(--black);
@@ -118,11 +147,14 @@ header .search-form label:hover{
 }
 header .cart-items-container{
     top: 100%;
-    right: 0;
-    height: calc(100vh - 9.5rem);
-    width: 35rem;
+    right: -2000rem;
+    height: auto;
+    width: 25rem;
     background: #fff;
     padding: 0 1.5rem;
+}
+header .cart-items-container.active{
+    right: 0;
 }
 header .cart-items-container .cart-item{
     position: relative;
@@ -145,6 +177,115 @@ header .cart-items-container .cart-item span:hover{
 header .cart-items-container .cart-item img{
     height: 7rem;
 }
-header .cart-items-container .cart-item{
-    
+header .cart-items-container .cart-item .content h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+header .cart-items-container .cart-item .content .price{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+header .cart-items-container .btn{
+    width: 100%;
+}
+.home{
+    min-height: 100vh;
+    background: url("https://img.freepik.com/free-photo/woman-feeding-her-pet-cat-carrier_23-2150204968.jpg?size=626&ext=jpg&ga=GA1.1.20565960.1698302695&semt=ais") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.home .content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.about .row .image{
+    flex: 1 1 45rem;
+}
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+.about .row .content p{
+    font-size: 3rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.2;
+}
+/* media queries */
+@media(max-width:991px){
+    html {
+        font-size: 55%;
+    }
+    header{
+        padding: 1.5rem 2rem;
+    }
+    section{
+        padding: 2rem 7%;
+    }
+}
+@media(max-width:768px){
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        right:2000rem;
+        background: #fff;
+        width: 20rem;
+    }
+    nav.navbar.active{
+        right: 0;
+    }
+    header .navbar a{
+        display: block;
+        width: 27rem;
+        color: var(--black);
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    header .search-form{
+        right: 0;
+        width: 90%;
+        height: 3rem;
+    }
+    .home{
+        background-position: left;
+        text-align: center;
+    }
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:450px){
+    html {
+        font-size: 50%;
+    }
 }
